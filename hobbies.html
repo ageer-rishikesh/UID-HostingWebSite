@@ -1,73 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hobbies & Interests | Ageer Rishikesh</title>
+    <link rel="stylesheet" href="resume.css">
 </head>
 
 <body>
 
-    <h1>My Hobbies and Interests</h1>
-
-    <p>
-        This webpage highlights my hobbies, interests, and extracurricular activities.
-        These activities help me improve my creativity, skills, and overall personality.
-    </p>
-
-    <hr>
-    <section>
-        <h2>Hobbies and Interests</h2>
+<nav>
+    <div class="nav-container">
+        <div class="nav-brand">AGEER RISHIKESH</div>
         <ul>
-            <li>Reading books</li>
-            <li>Listening to music</li>
-            <li>Travelling to spiritual places</li>
-            <li>Watching movies and web series</li>
-            <li>Learning new technologies</li>
-            <li>Playing online Games</li>
-            <li>Playing Indoor and Outdoor Games</li>
+            <li><a href="index.html">Resume</a></li>
+            <li><a href="personal.html">Personal</a></li>
+            <li><a href="hobbies.html" class="active">Hobbies</a></li>
+            <li><a href="travel.html">Travel</a></li>
         </ul>
-    </section>
+    </div>
+</nav>
 
-    <hr>
+<div class="container">
+    <header>
+        <h1>Hobbies & Interests</h1>
+    </header>
 
-    <!-- Skill-based Hobbies -->
-    <section>
-        <h2>Skill-Based Hobbies</h2>
+    <main>
+        <section>
+            <h3>General Hobbies</h3>
+            <ul>
+                <li>Reading books & Listening to music</li>
+                <li>Travelling to spiritual places</li>
+                <li>Watching movies and web series</li>
+                <li>Learning new technologies</li>
+                <li>Playing Indoor & Outdoor Games</li>
+            </ul>
+        </section>
 
-        <h3>Coding</h3>
-        <p>
-            Coding is one of my one of the interests. I enjoy writing programs in C and Java
-            and learning web technologies like HTML, CSS, and JavaScript.
-        </p>
-        <img src="\images\ai.jpeg" alt="Coding activity" width="300">
+        <section>
+            <h3>Skill-Based Hobbies</h3>
+            <div class="profile-header" style="margin-bottom: 1rem;">
+                <img src="images/ai.jpeg" alt="Coding" class="profile-avatar" style="width: 150px; height: 100px;">
+                <div>
+                    <h4>Coding & Development</h4>
+                    <p>I enjoy writing programs in C and Java, and building web experiences with HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </section>
 
-        <h3>Music</h3>
-        <p>
-            Listening to music helps me relax and improves my concentration.
-        </p>
-        <audio controls>
-            <source src="\videos\Hanuman Chalisa Hanuman 320 Kbps.mp3" type="audio/mpeg">
-            Your browser does not support the audio tag.
-        </audio>
+        <section>
+            <h3>Music & Spirituality</h3>
+            <p>Listening to spiritual music helps me relax and improves concentration.</p>
+            <audio controls>
+                <source src="videos/Hanuman Chalisa Hanuman 320 Kbps.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
 
-        <h3>Sports</h3>
-        <p>
-            Playing sports keeps me physically fit and teaches teamwork and discipline.
-        </p>
-        <P>Cricket,Football,volley Ball,Badminton</P>
-
-    </section>
-
-    <hr>
-
-    <p>
-        <a href="resume.html">Back to Resume</a>
-    </p>
-
-
+        <section>
+            <h3>Sports</h3>
+            <div class="flex-list">
+                <span class="flex-item">Cricket</span>
+                <span class="flex-item">Football</span>
+                <span class="flex-item">Volley Ball</span>
+                <span class="flex-item">Badminton</span>
+            </div>
+        </section>
+    </main>
+</div>
 
 </body>
-
 </html>
